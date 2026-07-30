@@ -18,11 +18,7 @@ function SplashScreen() {
         fade ? "opacity-0" : "opacity-100"
       }`}
     >
-      <img
-        src="public\logo.png"
-        alt="Logo"
-        className="w-52 h-52 object-contain"
-      />
+      <img src="logo.png" alt="Logo" className="w-52 h-52 object-contain" />
     </div>
   );
 }
