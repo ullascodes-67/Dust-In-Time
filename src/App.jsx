@@ -19,7 +19,7 @@ function SplashScreen() {
       }`}
     >
       <img
-        src="src\assets\logo.png" // Replace with your logo
+        src="public\logo.png"
         alt="Logo"
         className="w-52 h-52 object-contain"
       />
