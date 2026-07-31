@@ -33,6 +33,7 @@ export default function Navbar() {
           <a href="#">Services</a>
           <a href="#">Packages</a>
           <a href="#">Contact</a>
+          <a href="#">FAQ</a>
         </div>
 
         {/* Right */}
