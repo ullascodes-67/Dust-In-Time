@@ -27,10 +27,10 @@ const SubscriptionSection = () => {
 
           {/* Cards */}
 
-          <div className="flex lg:grid lg:grid-cols-2 gap-6 overflow-x-auto lg:overflow-visible snap-x snap-mandatory no-scrollbar pb-4">
+          <div className="grid grid-cols-1 lg:grid-cols-2 gap-6">
             {/* Silver */}
 
-            <div className="min-w-[100%] sm:min-w-[80%] lg:min-w-0 bg-white rounded-3xl shadow-lg border border-gray-100 p-6 hover:-translate-y-1 hover:shadow-xl transition snap-center flex-shrink-0">
+            <div className="bg-white rounded-3xl shadow-lg border border-gray-100 p-6 hover:-translate-y-1 hover:shadow-xl transition">
               <div className="flex items-center gap-4">
                 <div className="w-14 h-14 rounded-full bg-gray-100 flex items-center justify-center text-2xl">
                   🥈
@@ -80,7 +80,7 @@ const SubscriptionSection = () => {
 
             {/* Gold */}
 
-            <div className="min-w-[90%] sm:min-w-[80%] lg:min-w-0 relative rounded-3xl bg-gradient-to-br from-[#6D823B] to-[#556B2F] text-white shadow-xl p-6 overflow-hidden hover:-translate-y-1 transition snap-center flex-shrink-0">
+            <div className="relative rounded-3xl bg-gradient-to-br from-[#6D823B] to-[#556B2F] text-white shadow-xl p-6 overflow-hidden hover:-translate-y-1 transition">
               <span className="absolute right-6 top-6 bg-yellow-300 text-black px-3 py-1 rounded-full text-xs font-semibold hidden lg:visible">
                 ⭐ Popular
               </span>

@@ -4,6 +4,9 @@ import { Routes, Route } from "react-router-dom";
 import NavBar from "./comp/NavBar";
 import Home from "./pages/Home";
 import PackageDetails from "./pages/PackageDetails";
+import Packages from "./pages/Packages";
+import Contact from "./pages/Contact";
+import FAQ from "./pages/FAQ";
 
 function SplashScreen() {
   const [fade, setFade] = useState(false);
@@ -53,6 +56,9 @@ export default function App() {
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/package/:type" element={<PackageDetails />} />
+        <Route path="/packages" element={<Packages />} />
+        <Route path="/contact" element={<Contact />} />
+        <Route path="/FAQ" element={<FAQ />} />
       </Routes>
     </>
   );

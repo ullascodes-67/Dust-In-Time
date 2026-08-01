@@ -1,9 +1,12 @@
-import SubscriptionSection from "../comp/SubscriptionSection";
+import NavBar from "../comp/NavBar";
+import LandingHero from "../comp/LandingHero";
 
 export default function Home() {
   return (
     <>
-      <SubscriptionSection />
+      <NavBar />
+
+      <LandingHero />
     </>
   );
 }
