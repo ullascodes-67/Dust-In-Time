@@ -7,6 +7,8 @@ import PackageDetails from "./pages/PackageDetails";
 import Packages from "./pages/Packages";
 import Contact from "./pages/Contact";
 import FAQ from "./pages/FAQ";
+import BuildPlan from "./pages/BuildPlan";
+import Subscription from "./pages/Subscription";
 
 function SplashScreen() {
   const [fade, setFade] = useState(false);
@@ -59,6 +61,9 @@ export default function App() {
         <Route path="/packages" element={<Packages />} />
         <Route path="/contact" element={<Contact />} />
         <Route path="/FAQ" element={<FAQ />} />
+        <Route path="/build-plan" element={<BuildPlan />} />
+        <Route path="/subscription" element={<Subscription />}
+/>
       </Routes>
     </>
   );

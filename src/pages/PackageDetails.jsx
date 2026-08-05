@@ -47,7 +47,7 @@ export default function PackageDetails() {
 
       <WhyChoose />
 
-      <StickyFooter home={homes[selected]} />
+      <StickyFooter home={homes[selected]} packageType={type} />
     </div>
   );
 }
