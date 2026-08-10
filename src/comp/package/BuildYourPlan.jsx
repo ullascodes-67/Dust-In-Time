@@ -19,26 +19,15 @@ export default function BuildYourPlan() {
 
           {/* Content */}
 
-          <div className="relative z-10 p-8 md:p-10">
+          <div className="relative z-10 px-8 py-4 md:p-10">
 
             {/* Badge */}
 
-            <div className="inline-flex items-center gap-2 rounded-full bg-white/15 backdrop-blur-md px-4 py-2">
-
-              <Sparkles
-                size={18}
-                className="text-yellow-300"
-              />
-
-              <span className="text-white text-sm font-semibold">
-                New Feature
-              </span>
-
-            </div>
+           
 
             {/* Heading */}
 
-            <h2 className="mt-7 text-4xl md:text-5xl font-black text-white leading-tight">
+            <h2 className="mt-1 text-4xl md:text-5xl font-black text-white leading-tight">
 
               Build Your
               <br />
@@ -48,7 +37,7 @@ export default function BuildYourPlan() {
 
             {/* Description */}
 
-            <p className="mt-5 text-white/80 leading-7 max-w-xl">
+            <p className="mt-4 text-white/80 leading-7 max-w-xl">
 
               Every home is different. Create a personalized
               cleaning subscription by selecting only the
@@ -58,7 +47,7 @@ export default function BuildYourPlan() {
 
             {/* Features */}
 
-            <div className="mt-8 space-y-4">
+            <div className="mt-5 space-y-2">
 
               {[
                 "Choose only the services you need",
