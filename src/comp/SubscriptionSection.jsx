@@ -5,7 +5,7 @@ const SubscriptionSection = () => {
   const navigate = useNavigate();
   return (
     <div>
-      <section className="bg-[#F8F6F1] pt-24 md:pt-28 pb-16 px-4">
+      <section className="bg-[#F8F6F1] pt-24 md:pt-28 pb-10 px-4">
         <div className="max-w-7xl mx-auto">
           {/* Heading */}
 

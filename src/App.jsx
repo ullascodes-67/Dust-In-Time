@@ -9,6 +9,8 @@ import Contact from "./pages/Contact";
 import FAQ from "./pages/FAQ";
 import BuildPlan from "./pages/BuildPlan";
 import Subscription from "./pages/Subscription";
+import IndividualServices from "./pages/IndividualServices";
+import IndividualServiceDetails from "./pages/IndividualServiceDetails";
 
 function SplashScreen() {
   const [fade, setFade] = useState(false);
@@ -62,8 +64,9 @@ export default function App() {
         <Route path="/contact" element={<Contact />} />
         <Route path="/FAQ" element={<FAQ />} />
         <Route path="/build-plan" element={<BuildPlan />} />
-        <Route path="/subscription" element={<Subscription />}
-/>
+        <Route path="/subscription" element={<Subscription />}/>
+        <Route path="/services" element={<IndividualServices />}/>
+        <Route path="/services/:id" element={<IndividualServiceDetails />}/>
       </Routes>
     </>
   );
