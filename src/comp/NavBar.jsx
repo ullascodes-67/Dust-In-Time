@@ -163,7 +163,7 @@ export default function Navbar() {
               }`}
             >
               <Package size={22} />
-              <span className="text-[10px] mt-1">Packages</span>
+              <span className="text-[10px] mt-1">Services</span>
             </Link>
 
             <Link

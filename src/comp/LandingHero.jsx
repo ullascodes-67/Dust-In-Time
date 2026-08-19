@@ -5,6 +5,7 @@ import {
   ShieldCheck,
   Clock3,
   Leaf,
+  HeartPulse,
 } from "lucide-react";
 import { useNavigate } from "react-router-dom";
 
@@ -45,9 +46,10 @@ export default function LandingHero() {
             {/* Description */}
 
             <p className="mt-8 max-w-xl text-lg leading-8 text-gray-600">
-              Experience premium home cleaning with trained professionals,
-              flexible monthly plans and trusted service that keeps your home
-              fresh, spotless and stress-free.
+              Experience premium home cleaning with trained
+              professionals,flexible cleaning plans and on-demand servicesand
+              quality service designed to keep your home fresh, spotless and
+              stress-free.
             </p>
 
             {/* Buttons */}
@@ -72,12 +74,12 @@ export default function LandingHero() {
 
             {/* Trust Strip */}
 
-            <div className="mt-12 flex flex-wrap gap-6">
+            <div className="mt-9 flex flex-wrap gap-4 pb-2">
               <div className="flex items-center gap-2">
                 <ShieldCheck size={18} className="text-[#556B2F]" />
 
                 <span className="font-medium text-gray-700">
-                  Verified Staff
+                  Police Verified Staff
                 </span>
               </div>
 
@@ -93,6 +95,14 @@ export default function LandingHero() {
                 <Leaf size={18} className="text-[#556B2F]" />
 
                 <span className="font-medium text-gray-700">Eco-Friendly</span>
+              </div>
+
+              <div className="flex items-center gap-2">
+                <HeartPulse size={18} className="text-[#556B2F]" />
+
+                <span className="font-medium text-gray-700">
+                  Health-Screened Workers
+                </span>
               </div>
             </div>
           </div>

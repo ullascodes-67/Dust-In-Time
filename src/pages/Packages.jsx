@@ -5,8 +5,8 @@ import IndividualServiceCard from "../comp/package/IndividualServiceCard";
 
 const Packages = () => {
   return (
-    <div  className="bg-[#F8F6F1]">
-      <SubscriptionSection />
+    <div  className="bg-[#F8F6F1] pt-26">
+      
       <IndividualServiceCard />
       <BuildYourPlan />
     </div>

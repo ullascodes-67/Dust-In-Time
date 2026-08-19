@@ -14,116 +14,139 @@ export default function IndividualServiceDetails() {
   const services = [
     {
       id: 1,
-      title: "Bathroom Cleaning",
-      price: 699,
-      icon: "🛁",
-      description:
-        "Deep cleaning service to keep your bathroom fresh, clean and hygienic.",
-
-      duration: "1 - 2 hours",
-
-      includes: [
-        "Bathroom floor cleaning",
-        "Tile cleaning",
-        "Sink cleaning",
-        "Toilet cleaning",
-        "Mirror cleaning",
-        "General surface cleaning",
-      ],
-    },
-
-    {
-      id: 2,
-      title: "Sofa Cleaning",
-      price: 999,
-      icon: "🛋️",
-      description:
-        "Professional cleaning to remove dust, dirt and stains from your sofa.",
-
-      duration: "1 - 2 hours",
-
-      includes: [
-        "Surface dust removal",
-        "Sofa vacuuming",
-        "Fabric cleaning",
-        "Stain treatment",
-        "Cushion cleaning",
-      ],
-    },
-
-    {
-      id: 3,
       title: "Kitchen Cleaning",
-      price: 899,
+      price: "999–1,499",
       icon: "🍳",
       description:
-        "Detailed cleaning of your kitchen surfaces, cabinets and surrounding areas.",
-
-      duration: "1 - 2 hours",
-
+        "Price depends on kitchen size and condition.",
+  
       includes: [
-        "Countertop cleaning",
-        "Sink cleaning",
-        "Cabinet exterior cleaning",
-        "Stove cleaning",
-        "Floor cleaning",
+        "Countertop and kitchen platform cleaning",
+        "Sink and tap cleaning",
+        "Cabinet/external shutter wiping",
+        "Backsplash/tiles wiping",
+        "Hob/stove surface cleaning",
+        "Accessible appliance exterior cleaning",
+        "Floor sweeping and mopping",
+        "Dust and grease removal from accessible surfaces",
+      ],
+  
+      notIncludes: [
+        "Inside cabinets/drawers",
+        "Inside chimney/exhaust fan",
+        "Heavy grease or carbon removal",
+        "Oven/microwave deep cleaning",
+        "Pest-control treatment",
+        "Removal of very heavy stains/rust",
+        "Moving heavy appliances",
       ],
     },
-
+  
+    {
+      id: 2,
+      title: "Fridge Cleaning",
+      price: 799,
+      icon: "🧊",
+      description:
+        "Professional fridge cleaning including accessible interior and exterior surfaces.",
+  
+      includes: [
+        "Emptying and wiping accessible shelves (customer should remove food/items)",
+        "Shelf and tray cleaning",
+        "Interior wall cleaning",
+        "Door and gasket cleaning",
+        "Exterior cleaning",
+        "Basic stain and spill removal",
+      ],
+  
+      notIncludes: [
+        "Repair or dismantling of refrigerator",
+        "Deep cleaning of condenser/back coils",
+        "Removal of very stubborn mould/rust",
+        "Disposal of expired food",
+        "Electrical/mechanical work",
+      ],
+    },
+  
+    {
+      id: 3,
+      title: "Wardrobe Cleaning",
+      price: "399–699",
+      icon: "👔",
+      description:
+        "Price depends on wardrobe size.",
+  
+      includes: [
+        "Empty-surface dusting",
+        "Interior shelf wiping",
+        "Exterior panel cleaning",
+        "Doors and handles cleaning",
+        "Basic organisation assistance",
+        "Floor/base area cleaning around wardrobe",
+      ],
+  
+      notIncludes: [
+        "Washing clothes",
+        "Full decluttering",
+        "Disposal of unwanted items",
+        "Heavy mould treatment",
+        "Moving/dismantling wardrobe",
+        "Repair work",
+      ],
+    },
+  
     {
       id: 4,
-      title: "Window Cleaning",
+      title: "Fans & Windows Cleaning",
       price: 599,
       icon: "🪟",
       description:
-        "Professional window cleaning to remove dust, marks and buildup.",
-
-      duration: "1 - 2 hours",
-
+        "Cleaning of accessible fans and windows including basic dust and cobweb removal.",
+  
       includes: [
-        "Glass cleaning",
+        "Dusting of accessible fan blades",
+        "Fan body cleaning",
+        "Window glass cleaning",
         "Window frame cleaning",
-        "Dust removal",
-        "Accessible exterior cleaning",
+        "Window sill cleaning",
+        "Basic cobweb removal",
+      ],
+  
+      notIncludes: [
+        "High-risk/exterior window cleaning",
+        "Cleaning windows requiring special equipment",
+        "Ladder/scaffolding work beyond safe working height",
+        "Removal of paint/cement/plaster",
+        "Heavy stain/rust removal",
+        "Fan electrical repair or dismantling",
       ],
     },
-
+  
     {
       id: 5,
       title: "Balcony Cleaning",
-      price: 499,
+      price: 299,
       icon: "🌿",
       description:
-        "Thorough cleaning of your balcony floor, corners and accessible areas.",
-
-      duration: "1 hour",
-
+        "Basic balcony cleaning including sweeping, mopping, dust and cobweb removal.",
+  
       includes: [
-        "Floor sweeping",
-        "Mopping",
-        "Corner cleaning",
-        "Dust removal",
-        "Accessible surface cleaning",
-      ],
-    },
-
-    {
-      id: 6,
-      title: "Deep Cleaning",
-      price: 1499,
-      icon: "✨",
-      description:
-        "A detailed one-time cleaning service for a fresher and cleaner home.",
-
-      duration: "2 - 4 hours",
-
-      includes: [
-        "Dusting",
         "Sweeping",
         "Mopping",
-        "Surface cleaning",
-        "Kitchen cleaning",
-        "Bathroom cleaning",
+        "Dust removal",
+        "Cobweb removal",
+        "Railing wiping",
+        "Basic floor stain cleaning",
+        "Accessible surface cleaning",
+      ],
+  
+      notIncludes: [
+        "Heavy cement/paint removal",
+        "Severe algae/moss treatment",
+        "Pest control",
+        "Drain blockage removal",
+        "Moving heavy furniture/items",
+        "Exterior/high-risk areas",
       ],
     },
   ];
@@ -260,6 +283,43 @@ export default function IndividualServiceDetails() {
               <div className="mt-6 grid sm:grid-cols-2 gap-4">
 
                 {service.includes.map((item) => (
+
+                  <div
+                    key={item}
+                    className="flex items-center gap-3"
+                  >
+
+                    <div className="w-7 h-7 rounded-full bg-[#EEF5E3] text-[#556B2F] flex items-center justify-center shrink-0">
+
+                      <Check size={15} strokeWidth={3} />
+
+                    </div>
+
+                    <p className="text-gray-700 text-sm">
+                      {item}
+                    </p>
+
+                  </div>
+
+                ))}
+
+              </div>
+
+            </section>
+            {/* not includes */}
+            <section className="bg-white rounded-3xl border border-gray-200 p-6 sm:p-8 shadow-sm mb-5">
+
+              <p className="text-xs font-bold tracking-wider text-[#556B2F]">
+                WHAT'S NOT INCLUDED
+              </p>
+
+              <h2 className="mt-2 text-2xl font-bold">
+                Service Not Include
+              </h2>
+
+              <div className="mt-6 grid sm:grid-cols-2 gap-4">
+
+                {service.notIncludes.map((item) => (
 
                   <div
                     key={item}

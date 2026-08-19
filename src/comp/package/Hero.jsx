@@ -8,7 +8,7 @@ export default function Hero({ isGold }) {
 
       <div className="flex items-center justify-between">
         <Link
-          to="/"
+          to="/packages"
           className="inline-flex items-center gap-2 text-white text-sm font-medium bg-white/10 backdrop-blur-md px-3 py-2 rounded-xl"
         >
           <ArrowLeft size={18} />

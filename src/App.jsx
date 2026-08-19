@@ -11,6 +11,7 @@ import BuildPlan from "./pages/BuildPlan";
 import Subscription from "./pages/Subscription";
 import IndividualServices from "./pages/IndividualServices";
 import IndividualServiceDetails from "./pages/IndividualServiceDetails";
+import ScrollToTop from "./comp/ScrollToTop";
 
 function SplashScreen() {
   const [fade, setFade] = useState(false);
@@ -56,6 +57,7 @@ export default function App() {
   return (
     <>
       <NavBar />
+      <ScrollToTop />
 
       <Routes>
         <Route path="/" element={<Home />} />

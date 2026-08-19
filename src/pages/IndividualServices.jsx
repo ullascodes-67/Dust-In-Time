@@ -12,59 +12,49 @@ export default function IndividualServices() {
   const services = [
     {
       id: 1,
-      title: "Bathroom Cleaning",
-      price: 699,
-      icon: "🛁",
-      description:
-        "Deep cleaning service to keep your bathroom fresh, clean and hygienic.",
-    },
-
-    {
-      id: 2,
-      title: "Sofa Cleaning",
-      price: 999,
-      icon: "🛋️",
-      description:
-        "Professional cleaning to remove dust, dirt and stains from your sofa.",
-    },
-
-    {
-      id: 3,
       title: "Kitchen Cleaning",
-      price: 899,
+      price: "999",
       icon: "🍳",
       description:
-        "Detailed cleaning of your kitchen surfaces, cabinets and surrounding areas.",
+        "Price depends on kitchen size and condition.",
     },
-
+  
+    {
+      id: 2,
+      title: "Fridge Cleaning",
+      price: 799,
+      icon: "🧊",
+      description:
+        "Professional fridge cleaning including accessible interior and exterior surfaces.",
+    },
+  
+    {
+      id: 3,
+      title: "Wardrobe Cleaning",
+      price: "399",
+      icon: "👔",
+      description:
+        "Price depends on wardrobe size.",
+    },
+  
     {
       id: 4,
-      title: "Window Cleaning",
+      title: "Fans & Windows Cleaning",
       price: 599,
       icon: "🪟",
       description:
-        "Professional window cleaning to remove dust, marks and buildup.",
+        "Cleaning of accessible fans and windows including basic dust and cobweb removal.",
     },
-
+  
     {
       id: 5,
       title: "Balcony Cleaning",
-      price: 499,
+      price: 299,
       icon: "🌿",
       description:
-        "Thorough cleaning of your balcony floor, corners and accessible areas.",
-    },
-
-    {
-      id: 6,
-      title: "Deep Cleaning",
-      price: 1499,
-      icon: "✨",
-      description:
-        "A detailed one-time cleaning service for a fresher and cleaner home.",
+        "Basic balcony cleaning including sweeping, mopping, dust and cobweb removal.",
     },
   ];
-
   return (
     <div className="min-h-screen bg-[#F8F6F1] pb-16 mb-3">
 
