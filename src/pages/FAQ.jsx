@@ -61,7 +61,7 @@ export default function FAQ() {
   );
 
   return (
-    <div className="min-h-screen bg-[#F8F6F1] pt-28 pb-20 px-5">
+    <div className="min-h-screen bg-[#F8F6F1] pt-28 pb-25 px-5">
 
       <div className="max-w-4xl mx-auto">
 

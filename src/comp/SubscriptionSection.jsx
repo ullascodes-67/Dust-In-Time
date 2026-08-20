@@ -9,7 +9,7 @@ const SubscriptionSection = () => {
         <div className="max-w-7xl mx-auto">
           {/* Heading */}
 
-          <div className="text-center mb-12">
+          <div className="text-center mb-12 mt-3">
             <span className="inline-block bg-[#556B2F]/10 text-[#556B2F] px-4 py-2 rounded-full font-medium text-sm">
               Our Plans
             </span>

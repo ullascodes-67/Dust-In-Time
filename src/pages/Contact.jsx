@@ -2,7 +2,7 @@ import { Phone, Mail, MapPin, Send, Clock } from "lucide-react";
 
 export default function Contact() {
   return (
-    <div className="min-h-screen bg-[#F8F6F1]">
+    <div className="min-h-screen bg-[#F8F6F1] pb-10">
       {/* Hero */}
 
       <section className="pt-28 pb-16 px-5">
