@@ -37,7 +37,7 @@ export default function BuildYourPlan() {
 
             {/* Description */}
 
-            <p className="mt-4 text-white/80 leading-7 max-w-xl">
+            <p className="mt-3 text-white/80 leading-7 max-w-xl">
 
               Every home is different. Create a personalized
               cleaning subscription by selecting only the

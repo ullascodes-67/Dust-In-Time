@@ -5,7 +5,7 @@ export default function IndividualServiceCard() {
   const navigate = useNavigate();
 
   return (
-    <div className="w-[calc(100%-2rem)] sm:w-full max-w-5xl mx-auto bg-white rounded-3xl border border-gray-200 shadow-lg p-5 sm:p-6 hover:-translate-y-1 hover:shadow-xl transition-all duration-300 mb-10 ">
+    <div className="w-[calc(100%-2rem)] sm:w-full max-w-5xl mx-auto bg-white rounded-3xl border border-gray-200 shadow-lg p-5 sm:p-6 hover:-translate-y-1 hover:shadow-xl transition-all duration-300 ">
 
       {/* Header */}
 
