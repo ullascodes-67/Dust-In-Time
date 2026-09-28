@@ -17,14 +17,38 @@ export default function PackageDetails() {
 
   const homes = isGold
     ? [
-        { bhk: "1 BHK", area: "Up to 600 sq.ft", price: 6999 },
-        { bhk: "2 BHK", area: "600 - 1000 sq.ft", price: 7999 },
-        { bhk: "3 BHK", area: "1000 - 1500 sq.ft", price: 8999 },
+        {
+          bhk: "1 BHK",
+          area: "Up to 600 sq.ft",
+          price: 6999,
+        },
+        {
+          bhk: "2 BHK",
+          area: "600 - 1000 sq.ft",
+          price: 7999,
+        },
+        {
+          bhk: "3 BHK",
+          area: "1000 - 1500 sq.ft",
+          price: 8999,
+        },
       ]
     : [
-        { bhk: "1 BHK", area: "Up to 600 sq.ft", price: 5599 },
-        { bhk: "2 BHK", area: "600 - 1000 sq.ft", price: 6599 },
-        { bhk: "3 BHK", area: "1000 - 1500 sq.ft", price: 7599 },
+        {
+          bhk: "1 BHK",
+          area: "Up to 600 sq.ft",
+          price: 5599,
+        },
+        {
+          bhk: "2 BHK",
+          area: "600 - 1000 sq.ft",
+          price: 6599,
+        },
+        {
+          bhk: "3 BHK",
+          area: "1000 - 1500 sq.ft",
+          price: 7599,
+        },
       ];
 
   const [selected, setSelected] = useState(0);
@@ -47,7 +71,10 @@ export default function PackageDetails() {
 
       <WhyChoose />
 
-      <StickyFooter home={homes[selected]} packageType={type} />
+      <StickyFooter
+        home={homes[selected]}
+        packageType={type}
+      />
     </div>
   );
 }

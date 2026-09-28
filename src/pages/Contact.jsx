@@ -39,7 +39,8 @@ export default function Contact() {
               Speak directly with our support team.
             </p>
 
-            <p className="mt-6 font-semibold text-[#556B2F]">+91 98765 43210</p>
+            <p className="mt-6 font-semibold text-[#556B2F]">+918660488905</p>
+            
           </div>
 
           {/* Email */}
@@ -56,7 +57,7 @@ export default function Contact() {
             </p>
 
             <p className="mt-6 font-semibold text-[#556B2F] break-all">
-              support@ditcleaning.com
+              dustintime107@gmail.com
             </p>
           </div>
 

@@ -62,11 +62,11 @@ export default function IndividualServiceCard() {
         <div className="rounded-2xl bg-[#F8F6F1] py-4 px-2 text-center">
 
           <div className="text-2xl">
-            🛋️
+          👔
           </div>
 
           <p className="mt-2 text-xs sm:text-sm font-medium text-gray-700">
-            Sofa
+            Wardrobe
           </p>
 
         </div>

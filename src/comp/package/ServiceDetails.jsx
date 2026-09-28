@@ -14,7 +14,7 @@ export default function ServiceDetails() {
     },
     {
       icon: Clock3,
-      title: "1 – 1.5 Hours",
+      title: "1 – 1.25 Hours",
       subtitle: "Average cleaning duration",
     },
     {

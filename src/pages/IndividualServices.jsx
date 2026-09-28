@@ -54,6 +54,14 @@ export default function IndividualServices() {
       description:
         "Basic balcony cleaning including sweeping, mopping, dust and cobweb removal.",
     },
+    {
+      id: 6,
+      title: "Bathroom & Toilet Cleaning",
+      price: 299,
+      icon: "🚽",
+      description:
+        "Basic bathroom and toilet cleaning including floor, toilet, sink, dust and stain removal.",
+    },
   ];
   return (
     <div className="min-h-screen bg-[#F8F6F1] pb-16 mb-3">
