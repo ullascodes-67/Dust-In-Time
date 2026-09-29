@@ -138,6 +138,33 @@ const services = [
       "Exterior/high-risk areas",
     ],
   },
+  {
+    id: 6,
+    title: "Bathroom & Toilet Cleaning",
+    price: 299,
+    icon: "🚽",
+    description:
+    "Basic bathroom and toilet cleaning including floor, toilet, sink, dust and stain removal.",
+
+    includes: [
+      "Sweeping",
+      "Mopping",
+      "Dust removal",
+      "Cobweb removal",
+      "Railing wiping",
+      "Basic floor stain cleaning",
+      "Accessible surface cleaning",
+    ],
+
+    notIncludes: [
+      "Heavy cement/paint removal",
+      "Severe algae/moss treatment",
+      "Pest control",
+      "Drain blockage removal",
+      "Moving heavy furniture/items",
+      "Exterior/high-risk areas",
+    ],
+  },
 ];
 
 const terms = [
