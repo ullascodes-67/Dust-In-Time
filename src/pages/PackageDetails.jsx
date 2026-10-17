@@ -13,14 +13,14 @@ export default function PackageDetails() {
 
   const isGold = type === "gold";
 
-  const price = isGold ? 6999 : 5599;
+  const price = isGold ? 7099 : 5099;
 
   const homes = isGold
     ? [
         {
           bhk: "1 BHK",
           area: "Up to 600 sq.ft",
-          price: 6999,
+          price: 7099,
         },
         {
           bhk: "2 BHK",
@@ -30,24 +30,24 @@ export default function PackageDetails() {
         {
           bhk: "3 BHK",
           area: "1000 - 1500 sq.ft",
-          price: 8999,
+          price: 8099,
         },
       ]
     : [
         {
           bhk: "1 BHK",
           area: "Up to 600 sq.ft",
-          price: 5599,
+          price: 5099,
         },
         {
           bhk: "2 BHK",
           area: "600 - 1000 sq.ft",
-          price: 6599,
+          price: 5599,
         },
         {
           bhk: "3 BHK",
           area: "1000 - 1500 sq.ft",
-          price: 7599,
+          price: 6099,
         },
       ];
 

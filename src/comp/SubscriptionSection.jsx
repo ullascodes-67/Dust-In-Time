@@ -48,7 +48,7 @@ const SubscriptionSection = () => {
               <hr className="my-6" />
 
               <div className="flex items-end gap-2">
-                <h1 className="text-5xl font-bold text-[#556B2F]">₹5599</h1>
+                <h1 className="text-5xl font-bold text-[#556B2F]">₹5099</h1>
 
                 <span className="text-gray-500 mb-2">/ month</span>
               </div>
@@ -100,7 +100,7 @@ const SubscriptionSection = () => {
               <hr className="my-6 border-white/20" />
 
               <div className="flex items-end gap-2">
-                <h1 className="text-5xl font-bold">₹6999</h1>
+                <h1 className="text-5xl font-bold">₹7099</h1>
 
                 <span className="mb-2">/ month</span>
               </div>
