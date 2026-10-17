@@ -114,7 +114,7 @@ export default function Subscription() {
     } = formData;
 
     // DIT WhatsApp number
-    const whatsappNumber = "918660488905";
+    const whatsappNumber = "919110296016";
 
     const message = `Hi DustInTime 👋
 

@@ -39,7 +39,7 @@ export default function Contact() {
               Speak directly with our support team.
             </p>
 
-            <p className="mt-6 font-semibold text-[#556B2F]">+918660488905</p>
+            <p className="mt-6 font-semibold text-[#556B2F]">+919110296016</p>
             
           </div>
 
@@ -63,7 +63,7 @@ export default function Contact() {
 
           {/* Location */}
 
-          <div className="bg-white rounded-3xl p-7 border border-gray-100 shadow-sm hover:shadow-xl transition">
+          {/* <div className="bg-white rounded-3xl p-7 border border-gray-100 shadow-sm hover:shadow-xl transition">
             <div className="w-14 h-14 rounded-2xl bg-[#EEF5E3] flex items-center justify-center">
               <MapPin className="text-[#556B2F]" size={26} />
             </div>
@@ -75,7 +75,7 @@ export default function Contact() {
             <p className="mt-6 font-semibold text-[#556B2F]">
               Banglore, Karnataka
             </p>
-          </div>
+          </div> */}
         </div>
       </section>
 
@@ -84,6 +84,37 @@ export default function Contact() {
 
       <section className="px-5 py-16">
         <div className="max-w-6xl mx-auto grid lg:grid-cols-3 gap-8">
+        {/* Working Hours */}
+        <div className="bg-white rounded-3xl shadow-sm border border-gray-100 p-8  h-fit">
+            <div className="w-14 h-14 rounded-2xl bg-[#EEF5E3] flex items-center justify-center">
+              <Clock className="text-[#556B2F]" size={28} />
+            </div>
+
+            <h2 className="mt-6 text-2xl font-bold">Working Hours</h2>
+
+            <div className="mt-8 space-y-5">
+              <div className="flex justify-between">
+                <span className="text-gray-600">Monday - Friday</span>
+
+                <span className="font-semibold">9 AM - 6 PM</span>
+              </div>
+
+              <div className="flex justify-between">
+                <span className="text-gray-600">Saturday</span>
+
+                <span className="font-semibold">9 AM - 3 PM</span>
+              </div>
+
+              <div className="flex justify-between">
+                <span className="text-gray-600">Sunday</span>
+
+                <span className="text-red-500 font-semibold">Closed</span>
+              </div>
+            </div>
+
+            
+          </div>
+
           {/* Contact Form */}
 
           <div className="lg:col-span-2 bg-white rounded-3xl shadow-sm border border-gray-100 p-8">
@@ -130,50 +161,9 @@ export default function Contact() {
             </form>
           </div>
 
-          {/* Working Hours */}
 
-          <div className="bg-white rounded-3xl shadow-sm border border-gray-100 p-8 h-fit">
-            <div className="w-14 h-14 rounded-2xl bg-[#EEF5E3] flex items-center justify-center">
-              <Clock className="text-[#556B2F]" size={28} />
-            </div>
 
-            <h2 className="mt-6 text-2xl font-bold">Working Hours</h2>
-
-            <div className="mt-8 space-y-5">
-              <div className="flex justify-between">
-                <span className="text-gray-600">Monday - Friday</span>
-
-                <span className="font-semibold">9 AM - 6 PM</span>
-              </div>
-
-              <div className="flex justify-between">
-                <span className="text-gray-600">Saturday</span>
-
-                <span className="font-semibold">9 AM - 3 PM</span>
-              </div>
-
-              <div className="flex justify-between">
-                <span className="text-gray-600">Sunday</span>
-
-                <span className="text-red-500 font-semibold">Closed</span>
-              </div>
-            </div>
-
-            <div className="mt-10 rounded-2xl bg-[#EEF5E3] p-5">
-              <h3 className="font-semibold text-[#556B2F]">
-                Need Immediate Help?
-              </h3>
-
-              <p className="mt-2 text-sm text-gray-600">
-                Call us directly for urgent cleaning requests and booking
-                assistance.
-              </p>
-
-              <button className="mt-5 w-full rounded-xl bg-[#556B2F] py-3 text-white font-semibold hover:bg-[#475c29] transition">
-                Call Now
-              </button>
-            </div>
-          </div>
+         
         </div>
       </section>
     </div>

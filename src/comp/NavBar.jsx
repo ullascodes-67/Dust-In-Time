@@ -117,18 +117,7 @@ export default function Navbar() {
 
           {/* Right */}
 
-          <div className="flex items-center">
-
-            <Link
-              to="/profile"
-              className="p-2 rounded-full hover:bg-gray-100 transition"
-            >
-
-              <UserRound className="w-6 h-6 text-[#556B2F]" />
-
-            </Link>
-
-          </div>
+          
 
         </nav>
 
