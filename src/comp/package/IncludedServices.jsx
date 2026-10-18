@@ -4,6 +4,7 @@ import {
   Bath,
   Shirt,
   Home,
+  Trash, 
   ShieldCheck,
 } from "lucide-react";
 
@@ -31,23 +32,29 @@ export default function IncludedServices({ isGold }) {
         },
 
         {
-          title: "Bathroom",
+          title: "Bathroom Cleaning",
           icon: Bath,
           color: "bg-cyan-100 text-cyan-700",
-          dic:"Twice a week"
+          dic:"Thrice a week"
         },
         {
-          title: "Laundry",
+          title: "Laundry Assistance",
           icon: Shirt,
           color: "bg-pink-100 text-pink-600",
-          dic:"Included every visit"
+          dic:"Thrice a week"
         },
         {
-          title: "Car wash",
-          icon: ShieldCheck,
-          color: "bg-[#EEF5E3] text-[#556B2F]",
-          dic:"twice a months"
+          title: "Trash Removel",
+          icon: Trash,
+          color: "bg-pink-100 text-pink-600",
+          dic:"Thrice a week"
         },
+        // {
+        //   title: "Car wash",
+        //   icon: ShieldCheck,
+        //   color: "bg-[#EEF5E3] text-[#556B2F]",
+        //   dic:"twice a months"
+        // },
       ]
     : [
         {
